@@ -4,9 +4,15 @@
 #include <iostream>
 using namespace std;
 
+void FeatureB() {
+    cout<<2 + 1;
+}
+
 int main()
 {
     cout << "Hello World!\n";
+    FeatureB();
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
